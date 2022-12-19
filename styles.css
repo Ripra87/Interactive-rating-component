@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+    main {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+
+        .content {
+            background-color:hsl(216, 12%, 8%);
+            border-radius: 30px;
+            width: 26rem;
+        }
+
+            .star {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-color: hsl(213, 19%, 18%);
+                width: 2.5rem;
+                height: 2.5rem;
+                margin: 2em 0 0 2em;
+                border-radius: 100%;
+            }
+
+            .text {
+                margin: 2em 0 0 2em;
+                width: 22em;
+            }
+
+                h1 {
+                    color: hsl(0, 0%, 100%);
+                    margin-bottom: 0;
+                    font-size: 28px;
+                }
+
+                p {
+                    margin-top: 0.5;
+                    line-height: 1.5;
+                }
+
+            .rating {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 22em;
+                margin: 0 0 0 2em;
+
+            }
+
+                .numbers {
+                    background-color: hsl(213, 19%, 18%);
+                    color: hsl(216, 12%, 54%);
+                    width: 3.3rem;
+                    height: 3.3rem;
+                    border-radius: 100%;
+                    display: inherit;
+                    justify-content: center;
+                    align-items: center;
+                    border:none;
+                }
+
+                    h2 {
+                        font-size: 16px;
+                        font-weight: 100;
+                    }
+
+                p {
+                    color: hsl(217, 12%, 63%);
+                    font-size: 15px;
+                }
+
+            .button {
+                display:flex;
+                justify-content: center;
+            }
+
+                .submit {
+                    background-color:hsl(25, 97%, 53%);
+                    margin: 1.8em 0;
+                    width: 26em;
+                    height: 3.3em;
+                    border-radius: 30px;
+                    color: white;
+                    font-weight: bold;
+                    letter-spacing: 0.2rem;
+                    border: none
+                }
+
+    footer {
+        color: white;
+
+    }
+
+    /***************ACTIVE STATES****************/
+
+button.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+button.numbers:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+button.numbers:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}

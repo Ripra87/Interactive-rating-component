@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+    main {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .content {
+            display:flex;
+            flex-direction:column;
+            background-color:hsl(216, 12%, 8%);
+            border-radius: 30px;
+            width: 26rem;
+            height: 23.87em;
+        }
+
+            .image {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                margin-top: 2em;
+            }
+
+            .vote {
+                position:relative;
+                left: 7.65em;
+                height: 1.8rem;
+                background-color: hsl(213, 19%, 18%);
+                width: 10.5rem;
+                margin: 1.5em 0 0 0;
+                border-radius: 30px;
+            }
+
+                .vote p {
+                    position:relative;
+                    text-align: center;
+                    margin: 0.40em 0 0 0;
+                    color: hsl(25, 97%, 53%);
+                    font-size: 15px;
+                }
+
+            .text {
+                margin-top: 0.5em;
+                text-align: center;
+            }
+
+                h1 {
+                    color: hsl(0, 0%, 100%);
+                    margin-bottom: 0;
+                    font-size: 28px;
+                }
+
+                .text p {
+                    margin-top: 0.5;
+                    line-height: 1.5;
+                    color: hsl(217, 12%, 63%);
+                }
+
+            
